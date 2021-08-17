@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.ico">
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/libs/slick/slick.css">
+    <link rel="stylesheet" href="./assets/libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/libs/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- script -->
+    <script defer src="./assets/libs/jquery/jquery.min.js"></script>
+    <script defer src="./assets/libs/slick/slick.min.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+    <title>PLG Test FE</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="plg">
+        <nav class="d-flex">
+            <a href="#hero">
+                <img src="./assets/img/logo-playground-white.png" alt="Logo Playground White">
+            </a>
+            <span class="fas fa-bars col-white open-menu d-none"></span>
+            <div class="menu animation-dot">
+                <ul class="d-flex">
+                    <li>
+                        <a href="#weare">we are</a>
+                    </li>
+                    <li>
+                        <a href="#wedo">we do</a>
+                    </li>
+                    <li>
+                        <a href="#careers">careers</a>
+                    </li>
+                    <li>
+                        <a href="#contactus">contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-menu d-none">
+                <div class="d-flex pa-3 mobile-menu-header">
+                    <a href="#plg">
+                        <img src="./assets/img/logo-playground-white.png" alt="Logo Playground White">
+                    </a>
+                    <span class="fas fa-times col-white close-menu"></span>
+                </div>
+                <ul class="d-flex">
+                    <li>
+                        <a href="#weare">we are</a>
+                    </li>
+                    <li>
+                        <a href="#wedo">we do</a>
+                    </li>
+                    <li>
+                        <a href="#careers">careers</a>
+                    </li>
+                    <li>
+                        <a href="#contactus">contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- HERO SLIDER -->
+    <div class="hero" id="hero">
+        <div class="slide" style="background-image: url('./assets/img/slide-hello.jpg');">
+            <div class="slide-content center-wrapper col-white d-flex">
+                <h1 class="mb-2">lorem <br> ipsum.</h1>
+                <p>Consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('./assets/img/slide-circle.jpg');">
+            <div class="slide-content center-wrapper col-white d-flex">
+                <h1 class="mb-2">lorem <br> ipsum.</h1>
+                <p>Nulla condimentum tortor sem</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('./assets/img/slide-play.jpg');">
+            <div class="slide-content center-wrapper col-white d-flex">
+                <h1 class="mb-2">lorem <br> ipsum.</h1>
+                <p>In semper nisl bibendum eu.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- 3 BOX -->
+    <div class="box pt-5 pb-5 center-wrapper">
+        <div class="row d-flex">
+            <div class="col-3 card  text-center d-flex">
+                <div class="img-text">
+                    <div class="cover">
+                        <div class="cover-img" style="background-image: url('./assets/img/card-play-harder.png');">
+                        </div>
+                    </div>
+                    <h5 class="pa-2">Aenean mollis dolor a mattis viverra. In hac habitasse platea dictumst. Curabitur
+                        tempus dui tortor, et bibendum lacus eleifend ut.</h5>
+                </div>
+                <a class="pa-2 link" href="#0">READ MORE</a>
+            </div>
+            <div class="col-3 card text-center d-flex">
+                <div class="img-text">
+                    <div class="cover">
+                        <div class="cover-img" style="background-image: url('./assets/img/card-simplicity.png');"></div>
+                    </div>
+                    <h5 class="pa-2">Donec vitae augue tellus. Proin et urna sit amet metus fermentum dapibus non quis
+                        urna.</h5>
+                </div>
+                <a class="pa-2 link" href="#0">READ MORE</a>
+            </div>
+            <div class="col-3 card text-center d-flex">
+                <div class="img-text">
+                    <div class="cover">
+                        <div class="cover-img" style="background-image: url('./assets/img/card-innovation.png');"></div>
+                    </div>
+                    <h5 class="pa-2">Suspendisse vehicula</h5>
+                </div>
+                <a class="pa-2 link" href="#0">READ MORE</a>
+            </div>
+        </div>
+    </div>
+    <!-- BANNERS -->
+    <!-- weare -->
+    <div class="row d-flex banner" id="weare">
+        <div class="col-2-3 banner-image mr-0" style="background-image: url('./assets/img/banner-we-are.jpg');">
+
+        </div>
+        <div class="col-1-3 banner-side col-white bg-black pa-3 d-flex">
+            <h1 class="mb-2">we <br> are.</h1>
+            <p class="mb-2">Donec vitae augue tellus. Proin et </p>
+            <a href="#0" class="col-white pa-1">THE PLAYERS
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </div>
+    <!-- wedo -->
+    <div class="row d-flex banner" id="wedo">
+        <div class="col-1-3 mr-0 banner-side banner-side-text-right pa-3 d-flex">
+            <h1 class="mb-2">we <br> do.</h1>
+            <p class="mb-2">Donec vitae augue tellus. Proin et </p>
+            <a href="#0" class="pa-1 col-black">
+                THE PROJECTS
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+        <div class="col-2-3 banner-image" style="background-image: url('./assets/img/banner-we-do.jpg');">
+
+        </div>
+    </div>
+    <!-- careers -->
+    <div class="row d-flex banner" id="careers">
+        <div class="col-2-3 banner-image mr-0" style="background-image: url('./assets/img/banner-carrers.jpg');">
+
+        </div>
+        <div class="col-1-3 banner-side col-white bg-black pa-3 d-flex">
+            <h1 class="mb-2">careers.</h1>
+            <p class="mb-2">Donec vitae augue tellus. Proin et </p>
+            <a href="#0" class="col-white pa-1">THE POSITIONS
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </div>
+    <!-- TAB -->
+    <div class="tab pt-5 pb-5">
+        <div class="row d-flex tab-wrapper center-wrapper">
+            <div class="tab-btn d-flex">
+                <button class="tab1 active" onclick="openTab('tab1')">Vestibulum at odio sit amet</button>
+                <button class="tab2" onclick="openTab('tab2')">Sed vehicula neque</button>
+                <button class="tab3" onclick="openTab('tab3')">Nulla id libero pretium</button>
+            </div>
+            <div class="tab-content">
+
+                <div class="tab d-flex pa-3">
+                    <p></p>
+                </div>
+                <div class="loader loader-tab d-flex">
+                    <img class="icon" src="./assets/img/loader.png" alt="Loader">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT -->
+    <div id="contactus" class="contact pt-5 pb-5 bg-black">
+        <div class="contact-wrapper center-wrapper">
+            <div class="row  d-flex">
+                <div class="col-1-3 mr-0 d-flex col-white contact-info">
+                    <h1 class="mb-2">contact <br> us.</h1>
+                    <p class="mb-2">Playground srl <br>
+                        Via G. Mazzini 3/C, <br>
+                        Cernusco Sul Naviglio (Milano) <br>
+                        - <br>
+                        <a href="tel:+390240706003">T +39 0240706003</a>
+                    </p>
+                </div>
+                <div class="col-2-3">
+                    <div class="form">
+                        <div class="row d-flex">
+                            <div class="col-2  pb-2">
+                                <input type="text" placeholder="name" name="name">
+                            </div>
+                            <div class="col-2  pb-2">
+                                <input type="text" placeholder="last name" name="lastName">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 pb-2">
+                                <input type="email" placeholder="email" name="email" class="email">
+                                <label class="d-none col-white err-text err-email">Email obbligatoria</label>
+                                <label class="d-none col-white err-text err-val-email">Formato email errato</label>
+                            </div>
+                            <div class="col-1 pb-2">
+                                <textarea class="message" name="message" placeholder="message"></textarea>
+                                <label class="d-none col-white err-text err-message">Messaggio obbligatorio</label>
+                            </div>
+                            <div class="col-1 pb-2">
+                                <button class="send-form"> SEND
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="d-flex bg-black col-white pt-3 pb-3">
+        <img class="mb-2" src="./assets/img/logo-playground-white.png" alt="Logo Playground White">
+        <div class="menu mb-2 animation-dot">
+            <ul class="d-flex">
+                <li>
+                    <a href="#weare">we are</a>
+                </li>
+                <li>
+                    <a href="#wedo">we do</a>
+                </li>
+                <li>
+                    <a href="#careers">careers</a>
+                </li>
+                <li>
+                    <a href="#contactus">contact us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul class="d-flex">
+                <li>
+                    <a href="#contactus"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#contactus"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a href="#contactus"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+    <!-- LOADER -->
+    <div class="loader loader-intro d-flex">
+        <img class="mb-2" src="./assets/img/logo-playground-black.png" alt="">
+        <img class="icon" src="./assets/img/loader.png" alt="Loader">
+    </div>
+    <!-- COOKIES -->
+    <div class="cookies">
+        <div class="cookies-wrapper center-wrapper d-flex">
+            <p>Our website uses cookies to improve your experience. To find out more about the cookies we use please see
+                our Cookies Policy.</p>
+            <button class="bg-black col-white set-cookies">ok</button>
+        </div>
+    </div>
+</body>
+
+</html>
